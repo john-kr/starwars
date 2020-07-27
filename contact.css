@@ -1,0 +1,29 @@
+body {
+  background-color: #ffff00;
+}
+
+body .contact-container {
+  text-align: center;
+}
+
+body .contact-container form {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+body .contact-container form h1 {
+  font-size: 2.3rem;
+  padding-top: 3rem;
+}
+
+body .contact-container form input,
+body .contact-container form button {
+  display: block;
+  text-align: center;
+  padding: 0.7rem 0;
+  margin: 1rem auto 1rem auto;
+  width: 20%;
+  color: red;
+}
+/*# sourceMappingURL=contact.css.map */

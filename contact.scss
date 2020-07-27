@@ -1,0 +1,30 @@
+body {
+    background-color: #ffff00;
+
+    & .contact-container {
+        text-align: center;
+    
+        & form {
+            display: block;
+            margin: 0 auto;
+            text-align: center;
+
+            & h1 {
+                font-size: 2.3rem;
+                padding-top: 3rem;
+            }
+    
+            & input,
+            & button {
+                display: block;
+                text-align: center;
+                padding: 0.7rem 0;
+                margin: 1rem auto 1rem auto;
+                width: 20%;
+                color: red;
+                // background-color: #ffff00;
+            }
+        }
+    }
+}
+

@@ -1,9 +1,13 @@
 {
-    "name": "basic php webapp",
-    "description": "Basic sample for securing a WebApp with Auth0",
+    "name": "kurawakataichi/php-deploy-practice",
+    "authors": [
+        {
+            "name": "Taichi Kurawaka",
+            "email": "kr412wk@gmail.com"
+        }
+    ],
     "require": {
-         "vlucas/phpdotenv": "2.3.0",
-         "auth0/auth0-php": "~4.0"
-    },
-    "license": "MIT"
+        "auth0/auth0-php": "^7.2",
+        "vlucas/valitron": "^1.4"
+    }
 }
